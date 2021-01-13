@@ -1,0 +1,33 @@
+
+
+.mainPage{
+width:100%;
+/* height:100%; */
+display:flex;
+}
+
+.leftPage{
+    width:70%;
+    height:90%;
+    background-color: burlywood;
+
+    display:flex;
+    flex-wrap: wrap;   
+}
+
+.rightPage{
+    width:30%;
+    height:90%;
+    background-color: cornflowerblue;
+}
+
+.cards{
+    border:1px solid palevioletred;
+    margin:10px;
+}
+
+.img{
+    width:200px;
+    height:200px;
+    margin:10px;
+}
