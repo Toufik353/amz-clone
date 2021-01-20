@@ -1,0 +1,278 @@
+.heading{
+    color: #76836E!important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+}
+.fa-angleright{
+  margin:0 5px
+    
+}
+/* -------------------2nd div */
+.mainsection{
+    border:1px solid black;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    
+}
+.previewselectimage{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    border: 1px solid  #76836E;
+    margin-top:10px;
+    padding: 1px 3px;
+    width:40px;
+    height:40px;
+}
+.imagelatter{
+    width:40px;
+    height:40px;
+    margin-top:10px;
+    border: 0.5px solid #76836E;   
+    margin-left: 2px;
+}
+.image:hover{
+box-shadow: 1px 1px 2px #B12704;
+-webkit-box-shadow: 0 0 3px #B12704;
+        box-shadow: 0 0 3px #B12704;
+}
+.imagelatter:hover{
+    box-shadow: 1px 1px 2px #B12704;
+-webkit-box-shadow: 0 0 3px #B12704;
+        box-shadow: 0 0 3px #B12704;
+}
+.productImageMain{
+    width:308px;
+    height:160.66px;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-top:60px;
+    padding-bottom: 30px;
+}
+.MainImage{
+    width:308px;
+    height:160.66px;
+}
+.imageangles{
+    color: #76836E;
+    margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ------------------------------------------------------------details div */
+.detailsdiv{
+    width:527px;
+    border: 1px solid black;
+    
+}
+.Producttitle{
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 600;
+    line-height: 32px!important;
+    font-size: 19px!important;
+}
+.brandlink{
+    color:#007185;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    margin-top:0;
+    font-weight: 400;
+}
+.fa-star,.fa-star-half{
+    color: #FFA41C;
+    font-size: 12px;
+}
+.fa-angle-down{
+    color:#C6C6C6;
+    font-size: 12px;
+}
+.noofreviews{
+    box-sizing: border-box;
+    margin-left: 10px;
+    color:#007185;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    margin-top:0;
+    font-weight: 400;
+}
+.rupee{
+    /* position: absolute; */
+    top:0;
+    
+    }
+.Price{
+        /* position: absolute; */
+        font-size: 20px;
+        left:10px;
+        font-weight: 600;
+    }
+.deal{
+    font-size: 14px;
+    color: #565959;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.rupee{
+    color: #B12704;
+    margin-left:10px;
+    /* font-weight: 100; */
+    font-size: 17px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.Price{
+    color: #B12704;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+.fulfilledimage{
+    position: relative;
+    /* border: 1px solid black; */
+}
+.bookmark{
+    position: absolute;
+    transform: rotate(-90deg);
+    width:50px;
+    height:100px;
+top:-45px;
+left:30px;
+}
+.fa-amazon{
+    position: absolute;
+    color:white;
+    z-index: 6;
+    left:10px;
+    top:-1px;
+}
+.innertext{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    z-index: 7;
+    left:30px;
+   bottom: 3px;
+   top:-5px;
+}
+.freedelivery{
+    /* border: 1px solid black; */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+ position: absolute;
+ left:100px;
+ bottom: 0px;
+ min-width: 100px;
+ color: #4D514F!important;
+}
+.saverupee{
+color:#B12704;
+margin-right:3px;
+font-weight: 100;
+}
+.SavedPrice{
+    color: #B12704;
+}
+.deliverydate{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    color: darkslategrey!important;
+}
+
+.selectColor{
+    display:flex;
+    margin-left:10px;
+    margin-right:10px;
+    /* flex-direction: column; */
+}
+
+.items img{
+width:40px;
+height:40px;
+border:1px solid red;
+margin-left:5px;
+margin-right:5px
+}
+
+
+.productInfo{
+    width:450px;
+
+}
+.details{
+    width:100%;
+    font-size: 14px;
+    /* color: #565959;
+    font-family: 'Noto Sans JP', sans-serif; */
+}
+
+.sizeSelector{
+    font-size: 14px;
+    color: #565959;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.color{
+    color: black;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.checkourDiv{
+    width:250px;
+    height: 400px;
+    border:1px solid blue;
+    margin-left: 50px;
+}
+
+.mainText{
+  font-weight: 600; 
+  font-size: 14px;
+}
+
+.innerText{
+    color: #6C6011;
+    font-size: 14px;
+}
+
+.addtocartButton{
+    width:80%;
+    height:40px;
+    text-align: center;
+    background-color: #F1C24E;
+    margin:auto;
+    margin-left:25px;
+    margin-bottom:10px
+
+}
+
+.buyNow{
+    width:80%;
+    height:40px;
+    background-color: #F1C24E;  
+    text-align: center;
+   margin:auto;
+   margin-left:25px
+}
+
+.location{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.wishlistButton{
+    width:80%;
+    height:40px;
+    text-align: center;
+    background-color: #DEE1E6;
+    margin:auto;
+    margin-left:25px;
+    margin-bottom:10px 
+}
+
+.giftChoose{
+    margin:10px 25px
+}
